@@ -28,7 +28,7 @@ on:
       - '.github/workflows/terraform-validate-ci.yaml'
 jobs:
   job:
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
     strategy:
       matrix:
         # list of directories in the repo that hosts Terraform samples
