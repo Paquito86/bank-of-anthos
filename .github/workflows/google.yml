@@ -20,7 +20,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GAR_LOCATION: eu-west-4
   GKE_CLUSTER: cluster-1    # TODO: update to cluster name
-  GKE_ZONE: eu-west-4a   # TODO: update to cluster zone
+  GKE_ZONE: eu-west-4-a   # TODO: update to cluster zone
   DEPLOYMENT_NAME: bank-test # TODO: update to deployment name
   REPOSITORY: bank-dev # TODO: update to Artifact Registry docker repository
   IMAGE: static-site
